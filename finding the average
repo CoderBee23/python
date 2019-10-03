@@ -1,0 +1,16 @@
+
+
+#Store the amount of numbers into a variable
+how_many = int(input("How many numbers would you like to insert?:  "))
+
+#Give your list a variable
+a = []
+
+#Go ahead and set your for loop up and add user inputs to your list(a)
+for i in range(False, how_many):
+    num = int(input("Enter an input: "))
+    a.append(num)
+
+#Averaging equation
+avg = sum(a)/how_many
+print("Average of elements in the list",round(avg,2))
